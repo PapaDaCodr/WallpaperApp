@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 
-const API_KEY = '46360543-82748504e65184e9aede7c71e';
+const API_KEY = process.env.PIXABAY_API_KEY;
 const BASE_URL = 'https://pixabay.com/api/';
 
 export interface Wallpaper {
